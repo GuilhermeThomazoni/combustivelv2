@@ -1,0 +1,60 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+
+
+body{
+    background-color: rgb(54, 54, 54);
+    margin: 0;
+}
+
+.box{
+    background-color: rgb(122, 122, 122);
+    width: 60%;
+    margin: 5% auto;
+    height: 20rem;
+    text-align: center;
+    border-radius: 1rem;
+    font-family: 'Quicksand';
+    
+}
+
+h1{
+    color: white;
+}
+
+input{
+    width: 90%;
+    height: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 0;
+}
+
+button{
+    background-color: rgb(82, 12, 173);
+    border: 0;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: rgb(60, 12, 122);
+}
+
+@media(max-width: 768px){
+    .box{
+        width: 90%;
+        margin: 5% auto;
+        height: 70%;
+    }
+    input{
+        width: 80%;
+        padding: 4%;
+        margin: 2% auto;
+    }
+    button{
+        margin-bottom: 2rem;
+    }
+}
